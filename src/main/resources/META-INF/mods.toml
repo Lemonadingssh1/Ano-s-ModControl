@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="anos_modcontrol"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+description='''${mod_description}
+
+Features:
+- SpawnControl: Control entity spawning
+- BlockBreak: Control entity block breaking
+- DoAttack/DoAnger: Control entity hostility
+- STC: Supreme Authority protection
+- NoMoreDoubleEsc: Fix double ESC key issue
+'''
+
+[[dependencies.anos_modcontrol]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.anos_modcontrol]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
